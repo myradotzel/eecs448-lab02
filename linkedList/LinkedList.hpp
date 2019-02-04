@@ -114,6 +114,7 @@ bool LinkedList<T>::removeBack()
 	}
 
 	lastNode = m_front;
+
 	while (lastNode->getNext() != nullptr)
 	{
 		secondintoLast = lastNode;
